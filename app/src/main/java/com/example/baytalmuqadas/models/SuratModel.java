@@ -6,6 +6,9 @@ public class SuratModel {
     private String nama ;
     private String type ;
     private String audio ;
+    private String jumlah_ayat ;
+    private String nomor_surat ;
+    private String keterangan ;
 
     public String getArti() {
         return arti;
@@ -71,7 +74,5 @@ public class SuratModel {
         this.keterangan = keterangan;
     }
 
-    private String jumlah_ayat ;
-    private String nomor_surat ;
-    private String keterangan ;
+
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_surat"
+        android:title="@string/label_surat"
+        android:icon="@drawable/ic_surat"/>
+
+    <item android:id="@+id/menu_penanda"
+        android:title="@string/label_penanda"
+        android:icon="@drawable/ic_prnanda"/>
+</menu>
