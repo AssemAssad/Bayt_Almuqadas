@@ -1,5 +1,7 @@
 package com.example.baytalmuqadas.adapters;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.baytalmuqadas.AyatActivity;
 import com.example.baytalmuqadas.R;
 import com.example.baytalmuqadas.models.SuratModel;
 
@@ -38,6 +41,20 @@ public class SuratAdapters extends RecyclerView.Adapter<SuratAdapters.ViewHolder
         holder.type.setText(suratModelLists.get(position).getType());
         holder.jumlah_ayat.setText(suratModelLists.get(position).getJumlah_ayat());
         holder.asma.setText(suratModelLists.get(position).getAsma());
+
+        if (position % 2 != 0)holder.cardview_surat.setCardBackgroundColor(holder.itemView.getResources().getColor(R.color.colorBackground));
+        else holder.cardview_surat.setCardBackgroundColor(Color.WHITE);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ayatActivity = new Intent(holder.itemView.getContext(), com.example.baytalmuqadas.AyatActivity.class);
+                ayatActivity.putExtra("NOMOR_SURAT",suratModelLists.get(position).getNomor_surat());
+                ayatActivity.putExtra("NAMA",suratModelLists.get(position).getNama());
+
+                holder.itemView.getContext().startActivity(ayatActivity);
+            }
+        });
     }
 
     @Override

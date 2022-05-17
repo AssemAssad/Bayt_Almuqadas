@@ -5,10 +5,12 @@
     <string name="type">Mekah</string>
     <string name="pemisah">-</string>
     <string name="jumlah_ayat">7</string>
-    <string name="label_ayat">ayat</string>
+    <string name="label_aya">Aya</string>
     <string name="asma">Al Fateeha</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="label_surat">Surat</string>
     <string name="label_penanda">Penanda</string>
+    <string name="nomor_ayat">1</string>
+    <string name="ar">Bismillahirrohmanirrohiim</string>
 </resources>
