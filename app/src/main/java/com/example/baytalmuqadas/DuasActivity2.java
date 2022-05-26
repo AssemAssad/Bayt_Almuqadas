@@ -34,7 +34,6 @@ public class DuasActivity2 extends AppCompatActivity {
         String title = getIntent().getStringExtra("title");
         getSupportActionBar().setTitle(title);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-
         String id = getIntent().getStringExtra("id");
         duasModel2List = new ArrayList<>();
         String url = "https://www.hisnmuslim.com/api/ar/"+id+".json";

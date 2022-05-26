@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#019F8C"
+    android:background="#31B6A6"
     tools:context=".fragments.TasbihFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +37,8 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="170dp"
-            android:layout_height="170dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:src="@drawable/sobha" />
 
     </LinearLayout>
@@ -64,7 +64,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.451" />
+        app:layout_constraintVertical_bias="0.376" />
 
     <Button
         android:id="@+id/button"

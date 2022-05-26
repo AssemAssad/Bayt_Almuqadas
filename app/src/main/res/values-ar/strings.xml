@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">بيت المقدس</string>
+    <string name="nomor_surat">1</string>
+    <string name="nama">الفاتحة</string>
+    <string name="type">مكية</string>
+    <string name="jumlah_ayat">7</string>
+    <string name="label_aya">الأيات</string>
+    <string name="asma">الفاتحة</string>
+    <string name="nomor_ayat">1</string>
+    <string name="ar">الاية</string>
+    <string name="fajr">الفجر:</string>
+    <string name="dhuhr">الظهر:</string>
+    <string name="asr">العصر:</string>
+    <string name="maghrib">المغرب:</string>
+    <string name="isha">العشاء:</string>
+    <string name="prayer_timings">أوقات الصلاة</string>
+    <string name="tasbih">تسبيح</string>
+    <string name="prayer_timings_menu">اوقات الصلاة</string>
+    <string name="home">الرئيسة</string>
+    <string name="date_for">تاريخ اليوم</string>
+    <string name="titl_tasbih">تسبيح</string>
+    <string name="click">اضغط</string>
+    <string name="reseat">إعادة</string>
+    <string name="duas">اذكار</string>
+    <string name="al_quran_al_karim">القرآن الكريم</string>
+    <string name="arabic">عربي</string>
+    <string name="english">انجليزي</string>
+    <string name="quran_splash">القرآن</string>
+    <string name="bayt_almuqads_splash">بيت المقدس</string>
+    <string name="adkar_al_muslim">أذكار المسلم</string>
+</resources>

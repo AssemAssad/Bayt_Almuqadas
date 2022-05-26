@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/bac.xml" value="0.13" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_bg_row.xml" value="0.1685" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_prnanda.xml" value="0.163" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_surat.xml" value="0.163" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/selector.xml" value="0.13" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/time.xml" value="0.13" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_aya.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_ayat.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_duas2.xml" value="0.1953125" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_main.xml" value="0.22" />
@@ -18,10 +20,15 @@
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_surah.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_surat.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_tasbih.xml" value="0.22" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_aya.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_ayat.xml" value="0.22" />
-        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_duas.xml" value="0.5" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_duas.xml" value="0.22" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_duas2.xml" value="0.33" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_surah.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_surat.xml" value="0.33" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/tool.xml" value="0.209375" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/menu/menu_lang.xml" value="0.209375" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/menu/menu_language.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/menu/menu_nav.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13" />

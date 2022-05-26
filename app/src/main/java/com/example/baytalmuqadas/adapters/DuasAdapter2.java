@@ -38,10 +38,6 @@ public class DuasAdapter2 extends RecyclerView.Adapter<DuasAdapter2.ViewHolder>{
         holder.tv_duas_text.setText(duasModel2List.get(position).getText());
         holder.tv_number_repeat.setText(duasModel2List.get(position).getRepeat());
 
-
-        if (position % 2 != 0)holder.cardView_duas2.setCardBackgroundColor(holder.itemView.getResources().getColor(R.color.colorBackground));
-        else holder.cardView_duas2.setCardBackgroundColor(Color.WHITE);
-
     }
 
     @Override

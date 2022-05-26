@@ -34,7 +34,6 @@
             android:textSize="29sp"
             android:textAlignment="viewEnd"
             android:textColor="@color/colorPrimary"
-            android:fontFamily="@font/alfont_com_pdms_saleem_quranfont"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

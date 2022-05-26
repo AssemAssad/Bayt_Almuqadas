@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".fragments.SurahFragment">
 
-<androidx.recyclerview.widget.RecyclerView
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quran_maie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/al_quran_al_karim"
+                android:textColor="@color/purple_500"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quran" />
+
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/colorPrimaryDark"
+    />
+    <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/recyclerview_surah"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>
 
-</FrameLayout>
+</LinearLayout>

@@ -40,7 +40,7 @@ public class SurahFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        }
+    }
 
 
     @Override
@@ -96,4 +96,3 @@ public class SurahFragment extends Fragment {
 
 
 }
-

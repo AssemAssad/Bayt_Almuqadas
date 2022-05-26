@@ -55,7 +55,7 @@ public class DuasFragment extends Fragment {
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, URL_DUAS, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
-                int count = 20;
+                int count = 132;
                 for (int i = 0;i < count;i++){
                     DuasModel duasModel = new DuasModel();
 

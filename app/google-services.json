@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835855555616",
+    "project_id": "baytalmuqadas-a42a7",
+    "storage_bucket": "baytalmuqadas-a42a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835855555616:android:08d103632b2519a911b045",
+        "android_client_info": {
+          "package_name": "com.example.baytalmuqadas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835855555616-up4436o0ni49k2vqsuofibi1bqkmq04v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWct5msv2ub3d8DjJmswpguShahc2OpAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835855555616-up4436o0ni49k2vqsuofibi1bqkmq04v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
