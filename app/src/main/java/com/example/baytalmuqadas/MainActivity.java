@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     private Fragment fragment_tasbih;
     private Fragment fragment_duas;
     private BottomNavigationView bottomnavview_menu;
-    MyReceiver receiver ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,18 +40,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         bottomnavview_menu.setOnNavigationItemSelectedListener(this);
         bottomnavview_menu.setSelectedItemId(R.id.menu_surat);
 
-        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.O) {
-
-            IntentFilter nf = new IntentFilter();
-            nf.addAction("android.net.conn.CONNECTIVITY_CHANGE");
-            registerReceiver(new MyReceiver(),nf);
-
-        }
-    }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        unregisterReceiver(receiver);
     }
 
 

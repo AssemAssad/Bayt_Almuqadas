@@ -15,6 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BaytAlmuqadas">
+        <activity
+            android:name=".ConnectionCheck"
+            android:exported="false" />
+
         <receiver
             android:name=".utils.MyReceiver"
             android:enabled="true"
