@@ -18,26 +18,26 @@
             android:id="@+id/count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nomor_ayat"
             android:gravity="center"
+            android:text="@string/nomor_ayat"
             android:textColor="@color/black"
             android:textSize="14sp"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/text_duas"
             app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/text_duas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:text="@string/ar"
-            android:textSize="29sp"
-            android:textAlignment="viewEnd"
+            android:textAlignment="center"
             android:textColor="@color/colorPrimary"
-            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <TextView

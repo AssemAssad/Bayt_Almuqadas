@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cardview_aya"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -17,31 +17,29 @@
 
         <TextView
             android:id="@+id/num_aya"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nomor_ayat"
-            android:gravity="center"
-            android:textColor="@color/black"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:background="@drawable/ic_bg_row"
+            android:gravity="center"
+            android:text="@string/nomor_ayat"
+            android:textColor="@color/black"
             android:textSize="14sp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintBottom_toTopOf="@+id/ar_aya"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/ar_aya"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:fontFamily="@font/alfont_com_pdms_saleem_quranfont"
             android:text="@string/ar"
-            android:textSize="29sp"
-            android:layout_marginStart="16dp"
             android:textAlignment="viewEnd"
             android:textColor="@color/colorPrimary"
-            android:fontFamily="@font/alfont_com_pdms_saleem_quranfont"
-            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="29sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/num_aya"
-            />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <TextView

@@ -30,4 +30,16 @@
     <string name="quran_splash">القرآن</string>
     <string name="bayt_almuqads_splash">بيت المقدس</string>
     <string name="adkar_al_muslim">أذكار المسلم</string>
+    <string name="choose_tasbeeh">اختار التسبيح:</string>
+    <string name="kaaba_direction">اتجاه القبلة</string>
+    <string-array name="spinner">
+        <item>سبحان الله</item>
+        <item>الحمد لله</item>
+        <item>لَا إِلَهَ إِلَّا اللَّهُ</item>
+        <item>الْلَّهُ أَكْبَرُ</item>
+        <item>أستغفر الله</item>
+        <item>لا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ</item>
+        <item>اللهم صلِّ على سيِّدنا محمد</item>
+        <item>سبحان الله وبحمده، سبحان الله العظيم</item>
+    </string-array>
 </resources>

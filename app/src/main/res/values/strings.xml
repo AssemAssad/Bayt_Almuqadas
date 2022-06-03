@@ -8,7 +8,7 @@
     <string name="asma">Al Fateeha</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="nomor_ayat">1</string>
-    <string name="ar">Bismillahirrohmanirrohiim</string>
+    <string name="ar">bism allah alrahman alrahim</string>
     <string name="fajr">Fajr :</string>
     <string name="dhuhr">Dhuhr :</string>
     <string name="asr">Asr :</string>
@@ -29,4 +29,16 @@
     <string name="quran_splash">QURAN</string>
     <string name="bayt_almuqads_splash">BAYT ALMUQADS</string>
     <string name="adkar_al_muslim">Adkar Al Muslim</string>
+    <string name="choose_tasbeeh">Choose tasbeeh:</string>
+    <string name="kaaba_direction">Qiblah direction</string>
+    <string-array name="spinner">
+        <item>Glory to God</item>
+        <item>praise be to God</item>
+        <item>There is no deity except Allah</item>
+        <item>Allah is the greatest</item>
+        <item>ask Allah for forgiveness</item>
+        <item>There is no power or strength save in Allah</item>
+        <item>God blessings and peace upon our Prophet Muhammad </item>
+        <item>Glory be to God and praise be to God the Great</item>
+    </string-array>
 </resources>

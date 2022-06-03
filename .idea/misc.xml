@@ -5,29 +5,34 @@
       <map>
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/bac.xml" value="0.13" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_baseline_pause_circle_filled_24.xml" value="0.135" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.135" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_bg_row.xml" value="0.1685" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_prnanda.xml" value="0.163" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/ic_surat.xml" value="0.163" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/selector.xml" value="0.13" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/drawable/time.xml" value="0.13" />
-        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_aya.xml" value="0.209375" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_aya.xml" value="0.25" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_ayat.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_connection_check.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_duas2.xml" value="0.1953125" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_kaaba_direction.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_main2.xml" value="0.1953125" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/activity_splash_screens.xml" value="0.209375" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/color_spinner_item.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_duas.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_prayer_timings.xml" value="0.25" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_surah.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_surat.xml" value="0.209375" />
-        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_tasbih.xml" value="0.22" />
-        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_aya.xml" value="0.209375" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/fragment_tasbih.xml" value="0.25" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_aya.xml" value="0.33" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_ayat.xml" value="0.22" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_duas.xml" value="0.22" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_duas2.xml" value="0.33" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_surah.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/row_surat.xml" value="0.33" />
+        <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/spinner_dropdwon.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/layout/tool.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/menu/menu_lang.xml" value="0.209375" />
         <entry key="..\:/Android Studio/BaytAlmuqadas/app/src/main/res/menu/menu_language.xml" value="0.209375" />

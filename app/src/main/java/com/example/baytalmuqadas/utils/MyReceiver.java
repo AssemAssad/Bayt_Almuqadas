@@ -21,8 +21,6 @@ public class MyReceiver extends BroadcastReceiver {
             context.startActivity(ii);
 
         }else{
-           // Toast.makeText(context, " Wifi is Disconnected ", Toast.LENGTH_LONG).show();
-
         }
     }
 }

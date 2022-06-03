@@ -1,5 +1,6 @@
 package com.example.baytalmuqadas;
 
+import androidx.activity.OnBackPressedDispatcher;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.IntentFilter;
@@ -25,8 +26,14 @@ public class ConnectionCheck extends AppCompatActivity {
     }
     @Override
     protected void onDestroy() {
+        //unregisterReceiver(receiver);
+        try{
+            unregisterReceiver(receiver);
+        }catch (Exception e){
+            // already unregistered
+        }
         super.onDestroy();
-        unregisterReceiver(receiver);
+
     }
 
 }
